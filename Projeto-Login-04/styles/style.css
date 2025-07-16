@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/* Paleta de cores
+
+Cor 1 Azul: #0577D7
+Cor 2 Azul Claro : #4CAADE
+Cor 3 Branco : #FFFFFFS
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
