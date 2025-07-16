@@ -10,6 +10,7 @@
   --cor-cinza: #ecf0f1; /* Cinza claro */
 }
 
+/* Tablet */
 @media screen and (min-width: 768px) and (max-width: 992px){
     body{
         background-image: linear-gradient(to bottom, var(--cor-azul-escuro) 30%, var(--cor-azul) 75%, var(--cor-azul-claro));
@@ -29,6 +30,11 @@
     section#login > div#formulario{
         float: right;
         width: 70%;
+    }
+
+    form > input[type=submit] {
+        width: 88%;
+        margin-left: 12px;
     }
 }
 
@@ -58,5 +64,8 @@
 
     div#formulario > p{
         font-size: 1.2em;
+        margin: 20px 0px;
     }
+
+
 }
