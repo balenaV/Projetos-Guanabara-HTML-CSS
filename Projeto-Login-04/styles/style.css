@@ -36,17 +36,20 @@ section#login{
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-overflow: hidden;
+  overflow: hidden;
 
     background-color: var(--cor-destaque);
-    width: 55vw;
-    height: 60vh;
-    border-radius: 1em;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.534);
+    
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem{
-    background: var(--cor-azul-escuro) url(../images/Infinit_Solucoes.png);
+    background: #077AF1 url(../images/Infinit_Solucoes.png);
     display: block;
     height: 150px;
     background-size: cover;
@@ -54,7 +57,11 @@ section#login > div#imagem{
     background-position: center center;
 }
 
-section#login div#formulario{
+section#login > div#formulario{
     display: block;
     padding: 10px;
+}
+
+div#formulario > h1 {
+    text-align: center;
 }
