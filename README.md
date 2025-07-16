@@ -14,7 +14,7 @@ Este repositório reúne os mini-projetos desenvolvidos ao longo do curso de **H
 
 > Página estilo artigo explicando a origem da logo do sistema Android.  
 **🧠 Conceitos abordados:**
-- Responsividade com `@media queries`
+- Iniciando com Responsividade
 - Estrutura semântica em HTML5
 - Layout com CSS externo
 
