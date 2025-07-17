@@ -44,7 +44,7 @@ section#login{
     border-radius: 20px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.534);
     
-    transition: width .5s, height .5s;
+    transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
 
@@ -118,6 +118,7 @@ form > a.botao {
     padding: 5px;
     text-decoration: none;
     color: var(--cor-azul-escuro);
+    margin-top: 10px;
 }
 
 form > a.botao:hover {
