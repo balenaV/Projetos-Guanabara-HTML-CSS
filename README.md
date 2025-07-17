@@ -44,6 +44,19 @@ Este repositório reúne os mini-projetos desenvolvidos ao longo do curso de **H
 
 ---
 
+### 📜 Projeto Login (04)
+**Pasta:** `Projeto-Login-04`  
+🔗 **GitHub Pages:** [Acessar Projeto Login](https://balenaV.github.io/Projetos-Guanabara-HTML-CSS/Projeto-Login-04)
+
+> Página de login baseado em uma empresa de ERP.  
+**🧠 Conceitos abordados:**
+- Tela responsiva com **Media Queries** utilizando `@media screen and (min-width: / max-width:)`
+- Aplicando o formato **Mobile First** para a facilitação do desenvolvimento da tela
+- Utilizando Fontes e Icones exportadas do Google Fonts 
+- Utilização da Tag HTML `</Forms>` para realizar o formulário de Login utilizando também Tags como `</Input>` e `</Label>` para auxiliar a estrutura do formulário
+
+---
+
 ## 🛠️ Tecnologias Utilizadas
 
 - HTML5
